@@ -1,0 +1,34 @@
+tickers:
+  - AAPL
+  - MSFT
+  - GOOGL
+  - AMZN
+  - TSLA
+
+date_range:
+  start: "2015-01-01"
+  end: "2024-12-01"
+
+capital:
+  initial: 100000
+  commission: 0.001
+
+risk_management:
+  max_position_size: 0.2
+  stop_loss: 0.02
+  take_profit: 0.05
+
+strategies:
+  sma_crossover:
+    short_window: 50
+    long_window: 200
+  
+  rsi:
+    period: 14
+    oversold: 30
+    overbought: 70
+  
+  macd:
+    fast: 12
+    slow: 26
+    signal: 9
