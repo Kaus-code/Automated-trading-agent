@@ -1,1 +1,1 @@
-# Semantic-Scene-segmentation-model
+automated trading
