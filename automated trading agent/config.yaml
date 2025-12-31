@@ -9,6 +9,10 @@ date_range:
   start: "2015-01-01"
   end: "2024-12-01"
 
+portfolio:
+  initial_capital: 10000  # This is your "Paper Currency" starting balance ($10,000)
+  currency: "USD"
+
 capital:
   initial: 100000
   commission: 0.001
